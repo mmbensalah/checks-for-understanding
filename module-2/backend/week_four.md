@@ -53,18 +53,15 @@ holidays = [
  {holiday: {name: "Halloween", supplies: ["Candy", "Costume"]}},
  {holiday: {name: "Hanukkah", supplies: ["Menorah"]}}
 ]
-```  
+```  holidays.map do |holiday|
+        holiday[:holiday][:name]
+     end.sort
 14. How would you clean incoming data to ensure "$300" or "300.00" is stored as 300? 
-
+not sure
 
 ### Self Assessment:
 Choose One:
-* I was able to answer every question without relying on outside resources
-* I was able to answer most questions independently, but utilized outside resources for a few
 * I was able to answer a few questions independently, but relied heavily on outside resources 
 
 Choose One:
-* I feel confident about the content presented this week
-* I feel comfortable with the content presented this week
-* I feel overwhelmed by the content presented this week
-* I feel quite lost by the content presented this week
+* I feel IN BETWEEN comfortable and overwhelmed by the content presented this week
